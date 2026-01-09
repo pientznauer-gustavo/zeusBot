@@ -1,2 +1,3 @@
 # zeusBot
- Um bot do discord com funcionalidades específicas 
+### Um bot de discord criado principalmente para o divertimento pessoal e de meus amigos.
+

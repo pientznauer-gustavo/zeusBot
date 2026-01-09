@@ -45,7 +45,7 @@ async def on_message(mensagem):
             await mensagem.delete()
             await mensagem.channel.send(f"EIIIIII {mensagem.author.mention}")
     #testando uma de adicionar reação
-    if "boa" in mensagem.content.lower() or "massa" in mensagem.content.lower():
+    if "boa" in mensagem.content.lower() or "massa" in mensagem.content.lower() or "bom" in mensagem.content.lower():
         await mensagem.add_reaction("👍")
     elif "ruim" in mensagem.content.lower():
         await mensagem.add_reaction("👎")
